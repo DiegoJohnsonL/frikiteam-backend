@@ -2,9 +2,7 @@
 
 ## Integrantes: 
 - Brayan German Mamani Rojas
-- Klaus Mollan Neyra
-- Aldair Cuarez
+- Diego Anibal Johnson Ludeña
+- Juan De Dios Quiroz Rodriguez
 - Rodrigo Calle Galdos
 - Daniel Santillán Ávila
-- Carlos Izarra Ticlla
-- Josias Olaya Chauca
