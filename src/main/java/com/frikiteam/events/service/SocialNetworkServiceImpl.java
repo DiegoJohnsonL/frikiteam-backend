@@ -24,7 +24,7 @@ public class SocialNetworkServiceImpl implements SocialNetworkService {
     @Override
     public List<SocialNetwork> getAllSocialNetworksByEventId(Long eventId) {
         return eventRepository.findById(eventId)
-                .map(event -> event.getSocialNetworks())
+                .map(Event::getSocialNetworks)
                 .orElseThrow(() -> new ResourceNotFoundException("Event", "Id", eventId));
     }
 

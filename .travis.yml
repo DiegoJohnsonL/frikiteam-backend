@@ -1,0 +1,13 @@
+language: java
+jdk:
+- openjdk16
+before_install:
+- chmod +x mvnw
+script: "./mvnw clean install"
+notifications:
+  email: diegojohnson46@gmail.com
+deploy:
+  app: frikiteam-frontend
+  provider: heroku
+  api_key:
+    secure: f2WOh145pZOAWq2paZj4rWYY1Tz3brmnCbnvuRhoFiOLOvzGiOfHmzfKOTokKkSPiOwakNy8NkRWkTQi2V0qsujD7oWVbOvalXQbUGUjiYgdNWLP1XJwPtrYFhh6MgoxzC4SoBqrFTksieVw51K4nalCAQ8gS6OZHWNDD/cSe5oR+4JDf9XdhFyb8C8kMpwpP/EKEFbKtrfLtnxfyvROqUWSntAWSBiBKmY1mL2aAGicRbeciVf8vxqgpZLQeA5IFcbBLhBeMmezSjgaIS4VziAzi6SfLbZaHIEhmSoZL/i8RGZcH9WHCue23FZA4zmOUaVt/2zSejFZHEaqzvluxRYSxHIY+uJRLRyoDeT5NItKhUMbmAtcKLH5w78HLqjanaBKgQ/+amCIzZnlK2Q9HHYQmT00+uCnuN6u//RIuRkXV5ysckjstD6mNpESCho7ZwZ+X1yX6QXO1RdcC7fJAx/dT8FBRj6pKNvjK3MaxPRuqN+HhxnyQqRlYLVSBu9c4kQ1z/smVsX34xkAG10j35iQDl4Sora8aQ/1RKgjspNBlkZPehd+hNeM74RHJ5V7gjFo8UwrxuLyCWmnqn28JrExfPXoZOaJ4VXzmypjqRwzxVBPMa+FnNX5tXuSTdCHoo8lTQlB1f3A1G9hsvyi/wBYtZ6NIPoJYUTuo94YkTs=

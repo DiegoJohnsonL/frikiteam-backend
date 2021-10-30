@@ -10,7 +10,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("PaymentMethodServiceImpl")
 public class PaymentMethodServiceImpl implements PaymentMethodService {
     @Autowired
     private PaymentMethodRepository paymentMethodRepository;
